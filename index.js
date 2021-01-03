@@ -18,7 +18,7 @@ const exampleEmbed = new Discord.MessageEmbed()
 	.setDescription('Some description here')
 
 bot.on('message', message => {
-    if (message.content === prefix + 'maenvache') {
+    if (message.content === prefix + 'maevache') {
       message.channel.send('zebi')
     }
   });
