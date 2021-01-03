@@ -5,8 +5,8 @@ bot.on('ready', function () {
   console.log("Je suis connecté !")
 });
 
-function emoji (id) {
-    return client.emojis.get(id).toString();
+function emoji (736243827911819276) {
+    return client.emojis.get(736243827911819276).toString();
 }
 
 const prefix = "!";
@@ -19,12 +19,12 @@ const exampleEmbed = new Discord.MessageEmbed()
 
 bot.on('message', message => {
     if (message.content === prefix + 'maevache') {
-      message.channel.send(emoji ("736243827911819276"))
+      message.channel.send (emoji (736243827911819276))
     }
   });
 
 bot.on('message',message => {
   if (message.content === prefix + 'embed') {
-    message.channel.send(exampleEmbed)
+    message.channel.send (exampleEmbed)
   }
 })
