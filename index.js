@@ -6,7 +6,7 @@ bot.on('ready', function () {
 });
 
 function emoji (736243827911819276) {
-    return client.emojis.get(736243827911819276).toString();
+    return client.emojis.get("736243827911819276").toString();
 }
 
 const prefix = "!";
