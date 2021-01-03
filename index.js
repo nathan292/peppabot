@@ -19,7 +19,7 @@ const exampleEmbed = new Discord.MessageEmbed()
 
 bot.on('message', message => {
     if (message.content === prefix + 'maevache') {
-      message.channel.send(emoji("736243827911819276"))
+      message.channel.send(emoji ("736243827911819276"))
     }
   });
 
