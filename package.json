@@ -10,6 +10,6 @@
   "license": "ISC",
   "description": "bot peppa",
   "dependencies": {
-    "discord.js": "^12.5.1"
+    "discord.js": "^12.3.1"
   }
 }
