@@ -1,8 +1,0 @@
-language: node_js
-
-script: node index.js
-
-deploy:
-  provider: heroku
-  api_key: "95350268-4983-4a69-9058-0c75986327db"
-  run:"node index.js"
