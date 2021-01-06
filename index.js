@@ -28,3 +28,8 @@ bot.on('message',message => {
     message.channel.send (exampleEmbed)
   }
 })
+bot.on('message',message => {
+  if (message.content === prefix + 'Ayman') {
+    message.channel.send ("Ayman est méchant :rage: ! GROIN ")
+  }
+})
